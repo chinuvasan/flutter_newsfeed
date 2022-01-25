@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_newsfeed/screens/about.dart';
 import 'package:flutter_newsfeed/screens/home.dart';
+import 'package:flutter_newsfeed/screens/notifyUI.dart';
 import 'package:flutter_newsfeed/screens/settings.dart';
 
 class SideDrawer extends StatelessWidget {
@@ -37,6 +38,15 @@ class SideDrawer extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.shopping_cart),
             trailing: Icon(Icons.arrow_forward_ios_outlined),
+            title: Text('Notification'),
+            onTap: () => {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => NotifyUI()))
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.shopping_cart),
+            trailing: Icon(Icons.arrow_forward_ios_outlined),
             title: Text('Settings'),
             onTap: () => {
               Navigator.push(context,
@@ -49,7 +59,7 @@ class SideDrawer extends StatelessWidget {
             title: Text('About'),
             onTap: () => {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => AboutScreen()))
+                  MaterialPageRoute(builder: (context) => AboutScreen())),
             },
           ),
         ],

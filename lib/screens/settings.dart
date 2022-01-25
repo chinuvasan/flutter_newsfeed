@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_newsfeed/screens/language_screen.dart';
+import 'package:flutter_newsfeed/screens/navBar.dart';
 import 'package:settings_ui/settings_ui.dart';
 
 class SettingsScreen extends StatefulWidget {
@@ -13,7 +14,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Settings UI')),
+      drawer: SideDrawer(),
+      appBar: AppBar(
+          iconTheme: IconThemeData(color: Colors.blue),
+          title: Center(
+              child:
+                  Text('Settings UI', style: TextStyle(color: Colors.black))),
+          backgroundColor: Colors.white),
       body: SettingsList(
         sections: [
           SettingsSection(

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "409966014578",
+    "project_id": "newsfeed-eb573",
+    "storage_bucket": "newsfeed-eb573.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409966014578:android:c130eb68ee91a6fbaf12eb",
+        "android_client_info": {
+          "package_name": "com.example.flutter_newsfeed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409966014578-bhmg419rtdmdqufovfv5ba9mic8js6o0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlvBB7KYO7o0wtZJK_k2MfpE61FuAWwvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409966014578-bhmg419rtdmdqufovfv5ba9mic8js6o0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

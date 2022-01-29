@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:flutter_newsfeed/constant/images.dart';
 
 import 'screens/home.dart';
 
@@ -39,7 +40,8 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Container(
-        color: Colors.white,
-        child: FlutterLogo(size: MediaQuery.of(context).size.height));
+      color: Color(0xffFEFEFE),
+      child: Image.asset(NewsIcon),
+    );
   }
 }

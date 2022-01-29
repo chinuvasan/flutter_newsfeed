@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_newsfeed/components/customListTile.dart';
 import 'package:flutter_newsfeed/model/article_model.dart';
-
 import 'package:flutter_newsfeed/model/categoryModel.dart';
 import 'package:flutter_newsfeed/services/api_service.dart';
 import 'package:flutter_newsfeed/services/data.dart';
-
 import 'navBar.dart';
 
 class Home extends StatefulWidget {
